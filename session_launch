@@ -1,0 +1,17 @@
+<?php
+// Запуск сессии
+session_start();
+?>
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+// Установить переменные сессии
+$_SESSION["favcolor"] = "зеленый";
+$_SESSION["favanimal"] = "кот";
+echo "Установлены переменные сессии.";
+?>
+
+</body>
+</html>
